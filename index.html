@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: rgb(203, 186, 205);
+      }
+      div {
+        margin-bottom: 1em;
+      }
+      button {
+        background-color: antiquewhite;
+        border-radius: 30%;
+      }
+      div:last-of-type {
+        text-align: center;
+        margin-top: 3em;
+      }
+      body {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabella</h1>
+    <form>
+      <div>
+        <label id="name">Pet</label>
+        <input for="name" type="text" required />
+      </div>
+      <div>
+        <label id="Owner">Owner</label>
+        <input form="Owner" type="text" required />
+      </div>
+      <div>
+        <label id="species">species</label>
+        <input form="species" type="text" required />
+      </div>
+      <div>
+        <label for="breed">breed</label>
+        <input for="breed" type="text" required />
+      </div>
+
+      <div>
+        <button id="bottom">Invia</button>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
